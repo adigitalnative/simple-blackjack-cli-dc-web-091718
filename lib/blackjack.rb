@@ -36,11 +36,8 @@ def hit?(score)
   prompt_user
   input = get_user_input
   
-  case input
-    when "h"
-      score += deal_card
-    when "s"
-      #do something to stay
+  if input == "h"
+    score += deal_card
   end
   
   return score
