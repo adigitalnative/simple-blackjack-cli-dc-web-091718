@@ -42,6 +42,8 @@ def hit?(score)
     when "s"
       #do something to stay
   end
+  
+  return score
 end
 
 def invalid_command
