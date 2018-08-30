@@ -36,11 +36,15 @@ def hit?(score)
   prompt_user
   input = get_user_input
   
-  if input == "h"
-    score += deal_card
+  case input
+    when "h"
+      score += deal_card
+      return score
+    when "s"
+      return score
+    else
+      invalid_command
   end
-  
-  return score
 end
 
 def invalid_command
