@@ -38,7 +38,7 @@ def hit?(score)
   
   case input
     when "h"
-      #do something to hit
+      score += deal_card
     when "s"
       #do something to stay
   end
