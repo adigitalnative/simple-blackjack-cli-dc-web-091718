@@ -36,8 +36,10 @@ def hit?(score)
   prompt_user
   input = get_user_input
   
-  if input == "h" ? score += deal_card
-
+  if input == "h"
+    score += deal_card
+  end
+  
   return score
 end
 
