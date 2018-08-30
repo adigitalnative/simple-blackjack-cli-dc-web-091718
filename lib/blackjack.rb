@@ -48,7 +48,7 @@ def hit?(score)
 end
 
 def invalid_command
-  # code invalid_command here
+  "Please enter a valid command"
 end
 
 #####################################################
